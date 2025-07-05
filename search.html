@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Results - Shiva Creations</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <style>
+    .search-results h3 {
+      margin: 10px 0;
+    }
+    .product-card {
+      border: 1px solid #eee;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 6px;
+    }
+    .product-card img {
+      max-width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="mt-4 mb-4">Search Results for: <span id="searchQuery"></span></h2>
+    <div id="resultsContainer" class="row search-results"></div>
+  </div>
+
+  <script>
+    const queryParams = new URLSearchParams(window.location.search);
+    const searchTerm = queryParams.get("q")?.toLowerCase() || "";
+    document.getElementById("searchQuery").textContent = searchTerm;
+
+    const products = [
+      { name: "Beaumont Summit", price: "Rs33.00", img: "Images/1.jpeg", url: "product-details.html" },
+      { name: "Beaumont Summit", price: "Rs36.00", img: "Images/4.jpeg", url: "product-details.html" },
+      { name: "Beaumont Summit", price: "Rs20.00", img: "Images/6.jpeg", url: "product-details.html" },
+      { name: "Beaumont Summit", price: "Rs40.00", img: "Images/3.jpeg", url: "product-details.html" },
+      { name: "Beaumont Summit", price: "Rs30.00", img: "Images/5.jpeg", url: "product-details.html" }
+      // Add more if needed
+    ];
+
+    const resultsContainer = document.getElementById("resultsContainer");
+    const filtered = products.filter(p => p.name.toLowerCase().includes(searchTerm));
+
+    if (filtered.length === 0) {
+      resultsContainer.innerHTML = `<div class="col-12"><p>No products found matching "<strong>${searchTerm}</strong>".</p></div>`;
+    } else {
+      filtered.forEach(p => {
+        resultsContainer.innerHTML += `
+          <div class="col-md-4">
+            <div class="product-card text-center">
+              <a href="${p.url}"><img src="${p.img}" alt="${p.name}" /></a>
+              <h3><a href="${p.url}">${p.name}</a></h3>
+              <p class="text-muted">${p.price}</p>
+            </div>
+          </div>
+        `;
+      });
+    }
+  </script>
+</body>
+</html>

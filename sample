@@ -1,0 +1,135 @@
+<div class="feature-preduct-area home-page-2 feature-product-4 dotted-5 new-product-4 hot-deal-area  pb-50">
+			<div class="container">
+				<div class="row">
+					<div class="section-title hot-deal-title sale-4 section-title-4">
+						<h2>sale products</h2>
+					</div>				
+					<div class="col-lg-9 col-md-9">
+						<div class="feature-home-2-active feature-home-4-active">
+							<div class="single-product-items">
+								<div class="single-new-product">
+									<div class="product-img">
+										<a href="product-details.html">
+						<img src="Images/1.jpeg" alt="" />
+											
+										</a>
+									</div>
+									<div class="product-content text-center">
+										<a href="product-details.html"><h3>Beaumont Summit</h3></a>
+										<div class="product-price-star">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+											<i class="fa fa-star-o"></i>
+										</div>
+										<h4>Rs45.00</h4>
+									</div>
+								</div>
+								
+													
+							</div>	
+
+							<div class="single-product-items">
+								<div class="single-new-product">
+									<div class="product-img">
+										<a href="product-details.html">
+						<img src="Images/2.jpeg" alt="" />
+											
+										</a>
+									</div>
+									<div class="product-content text-center">
+										<a href="product-details.html"><h3>Beaumont Summit</h3></a>
+										<div class="product-price-star">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+											<i class="fa fa-star-o"></i>
+										</div>
+										<h4>Rs45.00</h4>
+									</div>
+								</div>
+								
+													
+							</div>	
+
+
+							<div class="single-product-items">
+								<div class="single-new-product">
+									<div class="product-img">
+										<a href="product-details.html">
+						<img src="Images/3.jpeg" alt="" />
+											
+										</a>
+									</div>
+									<div class="product-content text-center">
+										<a href="product-details.html"><h3>Beaumont Summit</h3></a>
+										<div class="product-price-star">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+											<i class="fa fa-star-o"></i>
+										</div>
+										<h4>Rs45.00</h4>
+									</div>
+								</div>
+								
+													
+							</div>	
+
+
+							<div class="single-product-items">
+								<div class="single-new-product">
+									<div class="product-img">
+										<a href="product-details.html">
+						<img src="Images/6.jpeg" alt="" />
+											
+										</a>
+									</div>
+									<div class="product-content text-center">
+										<a href="product-details.html"><h3>Beaumont Summit</h3></a>
+										<div class="product-price-star">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+											<i class="fa fa-star-o"></i>
+										</div>
+										<h4>Rs45.00</h4>
+									</div>
+								</div>
+								
+													
+							</div>	
+
+
+
+												
+												
+						</div>
+
+							
+					<div class="">
+						<div class="single-static-banner">
+							<div class="single-static-img">
+								<a href="bedroom.html"><img src="Images/banner4.png" alt="" /></a>
+								<!-- <div class="single-static-text single-static-text-4">
+									<h3>The world's most popular office sofa</h3>
+									<span>G64 - Over 1.3 Million Sold Worldwide</span>
+								</div>								 -->
+							</div>
+						</div>
+					</div>	
+
+
+					</div>
+					<div class="col-lg-3 col-md-3 hidden-sm">
+						<div class="single-banner mar_b-30">
+							<a href="bedroom.html"><img src="Images/banner3.png" alt="" /></a>
+						</div>				
+					</div>
+				</div>
+			</div>
+		</div>

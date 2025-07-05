@@ -239,6 +239,7 @@ body {}
 }
 .logo.logo2 {
   text-align: center;
+
 }
 .single-header-bottom-info {
   border-left: 1px solid #666666;
@@ -329,10 +330,10 @@ body {}
 	text-transform: uppercase;
 }
 .header-bottom-right .checkout-bg a:hover{
-  background: #9d297e;
+  background: #0effb3;
 }
 .header-bottom-right .cart-del i:hover{
-	color:#9d297e;
+	color:#1f8a24;
 }
 .header-bottom-right.header-bottom-right-2 .checkout-bg a:hover{
   background: #e73b49 none repeat scroll 0 0;
@@ -1368,8 +1369,8 @@ ul.usefull-link li a:hover{
 }
 /* ---------14.Contuct-Page-Area-Start---------- */
 .page-title-wrapper {
-	background: rgba(0, 0, 0, 0) url("img/bg/contuct.jpg") no-repeat scroll center center / cover ;
-	min-height: 250px;
+	background: rgba(0, 0, 0, 0) url("Images/banner.png") no-repeat scroll center center / cover ;
+	min-height: 570px;
 	position:relative;
 }
 .page-title{
@@ -3522,5 +3523,96 @@ p.checkout-coupon input[type=submit]{
 
 
 
+
+
+/* Promo Bar */
+.promo-bar {
+  background-color: #b9975b;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 14px;
+}
+.promo-bar a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Quick Links Bar */
+.quick-links {
+  background-color: #e7f1fb;
+  padding: 8px 0;
+  font-size: 14px;
+}
+.quick-links .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quick-links a {
+  margin-left: 20px;
+  color: #333;
+  text-decoration: none;
+}
+.quick-links i {
+  margin-right: 5px;
+}
+
+/* Main Header */
+.main-header {
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 120px;
+}
+.features-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+}
+.search-cart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.search-bar {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.search-bar input {
+  padding: 8px 12px;
+  border: none;
+  outline: none;
+}
+.search-bar button {
+  background: transparent;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.cart-icon {
+  position: relative;
+  color: #333;
+  font-size: 20px;
+}
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: #d48f00;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
 
 
