@@ -1043,7 +1043,7 @@ h3.del-price {
     background: #9d297e none repeat scroll 0 0;
 }
 .static-single-slider {
-    position: relative;
+    /* position: relative; */
 }
 .static-slider-text {
 	max-width: 600px;
@@ -3549,15 +3549,46 @@ p.checkout-coupon input[type=submit]{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
+
+.quick-links .left-links,
+.quick-links .right-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .quick-links a {
   margin-left: 20px;
   color: #333;
   text-decoration: none;
 }
+
 .quick-links i {
   margin-right: 5px;
 }
+
+/* Responsive: Stack items vertically on small screens */
+@media screen and (max-width: 767px) {
+  .quick-links .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .quick-links .left-links,
+  .quick-links .right-links {
+    flex-direction: column;
+    margin-bottom: 10px;
+	
+  }
+
+  .quick-links a {
+    margin: 6px 0;
+  }
+}
+
 
 /* Main Header */
 .main-header {
